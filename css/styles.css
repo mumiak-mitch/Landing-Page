@@ -1,23 +1,28 @@
+/* Reset default styles for all elements */
 * {
     padding: 0;
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Style for hyperlinks */
 a {
     text-decoration: none;
     color: #F9FAF8;
 }
 
+/* Remove list styling for list items */
 li {
     list-style-type: none;
 }
 
+/* Set a default size for all images */
 img {
     height: 100px;
     width: 100px;
 }
 
+/* Button styling */
 .btn {
     background: #3882F6;
     color: #F9FAF8;
@@ -26,22 +31,26 @@ img {
     cursor: pointer;
 }
 
+/* Header styling */
 header {
     background-color: #1F2937;
 }
 
+/* Navbar styling */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* Logo styling */
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     margin-left: 240px;
 }
 
+/* Links styling */
 .links {
     margin-right: 200px;
 }
@@ -56,6 +65,7 @@ header {
     color: #E5E7EB;
 }
 
+/* Content section styling */
 .content {
     margin: 20px;
     display: flex;
@@ -68,6 +78,7 @@ header {
     margin-left: 200px;
 }
 
+/* Hero text styling */
 .hero-text {
     font-size: 48px;
     font-weight: bolder;
@@ -75,6 +86,7 @@ header {
     margin-bottom: 5px;
 }
 
+/* Hero secondary text styling */
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
@@ -85,12 +97,14 @@ header {
     border: none;
 }
 
+/* Right content image styling */
 .right img {
     width: 300px;
     height: 150px;
     margin-right: 200px;
 }
 
+/* Cards section styling */
 .cards {
     padding: 20px;
 }
@@ -102,6 +116,7 @@ header {
     text-align: center;
 }
 
+/* Individual card styling */
 .card {
     display: flex;
     align-items: center;
@@ -116,6 +131,7 @@ header {
     text-align: center;
 }
 
+/* Quote section styling */
 .quote {
     background: #E5E7EB;
     padding: 120px;
@@ -132,6 +148,7 @@ header {
     margin-right: 10px;
 }
 
+/* Call to action section styling */
 .call-to-action {
     background: #F9FAF8;
     padding: 50px;
@@ -151,6 +168,7 @@ header {
     margin-left: 100px;
 }
 
+/* Footer styling */
 footer {
     background-color: #1F2937;
     text-align: center;
